@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fase 3</title>
+    <link rel="stylesheet" href="CSS/stylos.css">
+</head>
+
+<body class="contenedor">
+    
+    <header class="centrado">
+            <h1>BOX MODEL</h1>
+    </header>
+    
+         
+         <nav>
+            <ul class="menu-horizontal">
+                  
+                <li> <a href="fase4.HTML">Inicio</a>  </li>
+                  <li> <a href="audio.html">Audio</a>  </li>
+                 <li> <a href="tema.html"> Tema </a> </li> 
+            </ul>
+        </nav>
+        
+        <aside>
+            <ul class="menu-aside">
+                  <li> <a href="fase4.HTML">Inicio</a>  </li>
+                 <li> <a href="audio.html">Audio</a> </li>    
+                 <li> <a href="tema.html"> Tema </a> </li>
+                 <li> <a href="cuestionario.html"> Cuestionario </a>   </li>  
+                 <li> <a href="Nosotros.html"> Nosotros </a>   </li>
+            </ul>
+        </aside>
+
+    
+        <h1 id="resultado">Responda las siguentes preguntas</h1>
+        <div>
+            <br>
+            <br>
+            <br>
+            <form name="formulario">
+                <h3>1. Se llama Box Model porque en el navegador todo se construye a partir de: </h3>
+
+                <input type="radio" name="r1" value="a"> a. cajas <br>
+                <input type="radio" name="r1" value="b"> b. circulo <br>
+                <input type="radio" name="r1" value="c"> c. lineas <br>
+
+                <h3>2. La unica excepcion que genera mas de una caja es:</h3>
+
+                <input type="radio" name="r2" value="a"> a. listas y tablas <br>
+                <input type="radio" name="r2" value="b"> b. imagenes <br>
+                <input type="radio" name="r2" value="c"> c. titulos <br>
+
+                <h3>3. Cuando un elemento diseñado en CSS utiliza border-radius para parecer un círculo, ese elemento seguirá siendo:</h3>
+
+                <input type="radio" name="r3" value="a"> a. circular <br>
+                <input type="radio" name="r3" value="b"> b. Rectangular <br>
+                
+
+                <h3>4. ¿Cuáles son los tipos de caja?</h3>
+
+                <input type="radio" name="r4" value="a"> a. Caja de Bloque y en Linea <br>
+                <input type="radio" name="r4" value="b"> b. Caja en Linea <br>
+                <input type="radio" name="r4" value="c"> c. Caja en Bloque <br>
+
+                <h3>5. ¿Cuáles son la áreas del modelado de cajas?</h3>
+
+                <input type="radio" name="r5" value="a"> a. content, padding, border, margin <br>
+                <input type="radio" name="r5" value="b"> b. content, padding, border<br>
+                <input type="radio" name="r5" value="c"> c. margin <br>
+
+                <input type="button" value="Enviar" onclick="procesarRespuestas()">
+            </form>
+        </div>
+    <script src="js/script.js"></script>
+    </body> 

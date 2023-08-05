@@ -1,0 +1,84 @@
+.contenedor {
+    display: grid;
+    grid-template-areas:
+    'A A A A'
+    'B B B B'
+    'C D D D'
+    'E E E E';
+    }
+    
+    .centrado{
+        text-align: center;
+    }
+    
+    header{
+        grid-area: A;
+        background-color: pink;
+        
+    }
+    
+    nav{
+        grid-area: B;
+        background-color: rgb(245, 102, 126);
+     
+    }
+    
+    
+    aside{
+        grid-area: C;
+        background-color: #FC997C;
+     
+    }
+    
+    main{
+        grid-area: D;
+        background-color:rgb(240, 189, 204) ;
+    }
+    
+    footer{
+        background-color:#2E4C6D;
+        grid-area: E;
+        background-color:rgb(245, 102, 126);
+    }
+    .menu-horizontal{
+        list-style: none;
+        display:flex;
+        flex-direction: row;
+       justify-content: center;
+      
+    }
+    
+    .menu-horizontal a{
+        background-color: rgb(236, 188, 188);
+           color: black;
+           text-decoration: none;
+           padding: 10px 40px;
+           margin: 4px;
+    }
+    
+    .menu-aside {
+        list-style: none;
+       
+    }
+    
+    .menu-aside a{
+        display: block;
+        background-color: rgb(236, 188, 188);
+        color: black;
+        text-decoration: none;
+        padding: 10px 40px;
+        margin: 4px;
+    }
+    
+    .nosotros a{
+        list-style: none;
+        display:flex;
+        flex-direction: row;
+       justify-content: center;
+    }
+    section{
+        
+        grid-area: B;
+        
+       
+   }
